@@ -16,12 +16,12 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding-left: 0;
+    padding: 4px 0;
 }
 
 .nav > li {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .nav > li > a {
@@ -31,13 +31,14 @@ body {
 
 .header {
     background-color: #ffffff;
+    /* padding-top: 5px; */
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 19px 0px 12px 0;
 }
 
 .logo {
@@ -47,9 +48,11 @@ body {
     display:flex;
     align-items: center;
     margin-right: 10px;
+    letter-spacing: 4px;
 }
 
 .logo-image{
+    margin-right: 20px;
     display:block;
     width: 80px;
     height: 80px;
@@ -62,20 +65,25 @@ body {
 
 .header-info button {
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #6dc05d;
     background-color: transparent;
-    padding: 10px 15px;
-    margin-left: 20px;
+    padding: 10px 25px;
+    margin-left: 35px;
 }
 
 .header-bottom{
-    padding: 15px 0;
+    padding: 20px 0 27px 0;
 }
 
 .header-bottom .nav {
     font-size: 16px;
     margin: 0;
+}
+
+.header-bottom .nav >li{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 hr{
@@ -89,27 +97,29 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 159px;
+    padding-bottom: 204px;
     color: #ffffff;
 }
 .banner p{
-    margin-bottom: 50px;
+    margin-bottom: 57px;
     max-width: 315px;
+    line-height: 1.5;
 }
 
 .title {
     font-size: 48px;
+    margin-bottom: 39px;
     font-weight: 700;
 }
 
 .btn{
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #ffffff;
     background-color: transparent;
     padding: 10px 15px;
     color: #ffffff;
-    padding: 10px 15px;
+    padding: 9px 47px;
     text-decoration: none;
 }
 
