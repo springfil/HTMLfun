@@ -70,6 +70,12 @@ body {
     background-color: transparent;
     padding: 10px 25px;
     margin-left: 35px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.header-info button:hover{
+    background-color: #6dc05d;
 }
 
 .header-bottom{
@@ -121,6 +127,12 @@ hr{
     color: #ffffff;
     padding: 9px 47px;
     text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #333333
 }
 
 
